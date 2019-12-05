@@ -1,0 +1,27 @@
+Curvas paramétricas
+
+  - Interpoladora
+      - A curva passa por todos os pontos de controle
+      - Não garante continuidade
+      - Não permite controle local (a alteração de um ponto de controle altera toda a curva)
+
+  - Hermite
+      - A curva interpola os pontos de controle
+	- Especifica-se pontos de controle e vetores tangentes nesses pontos a partir da origem.
+      - Não garante continuidade
+      - Não permite controle local (a alteração de um ponto de controle altera toda a curva)
+
+  - Bezier
+      - A curva passa pelos pontos extremos e os pontos entre os extremos tem tangentes calculadas a partir dos extremos que definem 		a curva
+      - Não garante continuidade
+      - Não permite controle local (a alteração de um ponto de controle altera toda a curva)
+
+  - B-Spline
+      - A curva não passa pelos pontos de controle
+      - Garante continuidade (C1 e C2)
+      - Permite controle local (a alteração de um ponto de controle não altera toda a curva)
+
+  - Catmull Rom
+      - A curva passa pelos pontos de controle
+      - Garante continuidade C1 (direção) mas não é contínua em C2 (orientação)
+      - Permite controle local (a alteração de um ponto de controle não altera toda a curva)

@@ -1,0 +1,53 @@
+*[mais fácil usando a camada grafica GUI]
+___________________
+
+	Parte 01) 3.0 pontos
+	Entrega e apresentação: 14/06/2019 (sex)
+
+OK	-Implementar uma curva cúbica Interpoladora paramétrica 3D
+OK	-Implementar uma curva cúbica Hermite paramétrica 3D
+OK	-Implementar uma curva cúbica Bezier paramétrica 3D
+
+OK	-Alternar entre as matrizes Mi, Mh, Mb e explicar a mudança do significado dos pontos de controle para cada caso
+
+OK	-Implementar uma spline Catmull-Rom paramétrica 3D (cúbica por partes)
+OK	-Implementar uma spline B-spline paramétrica 3D (cúbica por partes)
+
+	___________________
+
+	Parte 02) 5.0 pontos
+	Entrega e apresentação: 14/06/2019 (sex)
+
+	02a) 4.0 pontos
+OK	-Uma curva paramétrica 3D define o movimento de um sistema de coordenadas local, e não apenas de um ponto 3D
+OK	  -considerar as mudanças de orientação (e não só de translação) definidas pela curva
+OK	-Desenhar o caminho de uma montanha-russa usando a implementação de splines
+OK	  -desenhar a montanha-russa ("trilhos" do caminho completo, com orientação)
+OK	    -permitir o usuário modelar interativamente (em tempo real) a montanha-russa, através do ajuste (translação) dos pontos 			de controle
+OK	    -permitir incluir/excluir pontos de controle
+OK	    -permitir alterar a discretizacao da curva interativamente (deixar usuario mexer em tempo real)
+OK	    -alternar entre as matrizes Catmull-Rom e B-Splines (analisar interpolação/aproximação vs. continuidades C1/C2)
+OK	  -desenhar um objeto percorrendo o caminho definido pela montanha-russa ("carrinho", com orientação)
+OK	    -definir teclas para avançar e para voltar no caminho definido
+OK	  -mostrar a visão de uma câmera percorrendo o caminho definido pela montanha-russa (estilo uma camera gopro acoplada em um carro)
+
+	02b) 1.0 pontos
+	-Explicação
+
+	___________________
+
+	Parte 03) 2.0 pontos
+	Entrega e apresentação: 14/06/2019 (sex)
+
+OK	-implementar seleção dos pontos de controle através de picking (mouse)
+OK	  -permitir transladar o ponto de controle selecionado
+OK	-usar diferentes viewports
+OK	  -sugestão 1: 1 viewport mostrando a visao do carrinho
+OK	  -sugestão 2: 4 viewports estilo 3ds/Blender
+OK	    -uma modificada pelo mouse, como antes/uma de frente/uma de lado/uma de cima
+		                                   \_relativo ao sist de coords global_/
+
+	___________________
+
+Sugestão: usar C++, QtCreator, OpenGL, GLUT/Qt [mais fácil usando a camada grafica GUI]
+
